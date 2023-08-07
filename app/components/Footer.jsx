@@ -50,6 +50,10 @@ const Footer = () => {
           <section className='mb-8'>
           <h4>Join Our Newsletter</h4>
           <p>Join 35,000+ others to never miss our exclusive drops again!</p>
+          <form>
+            <input type="text" name="" id="" placeholder='Your email address'/>
+            <button>Subscribe</button>
+          </form>
           </section>
         </div>
         </div>
