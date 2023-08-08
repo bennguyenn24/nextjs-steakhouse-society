@@ -35,7 +35,7 @@ const Footer = () => {
                             <br /> <strong>(123) 456-7890</strong>
                         </p>
                     </section>
-                    <section className="px-6">
+                    <section className="md:px-6 mb-5">
                         <h4 className="text-xl font-semibold mb-4 pr-2">
                             WORKING HOURS
                         </h4>
@@ -57,7 +57,7 @@ const Footer = () => {
                             <li className="pb-2 hover:text-blue-400">
                                 <Link href="/about" target="_blank">
                               
-                              About us
+                              About Us
                                 </Link>
                             </li>
                             <li className="pb-2 hover:text-blue-400">
@@ -67,7 +67,7 @@ const Footer = () => {
                             </li>
                             <li className="pb-2 hover:text-blue-400">
                                 <Link href="/terms" target="_blank">
-                                    Terms of services
+                                    Terms of Services
                                 </Link>
                             </li>
                             <li className="pb-2 hover:text-blue-400">
@@ -83,15 +83,15 @@ const Footer = () => {
                             Join 35,000+ others to never miss our exclusive
                             drops again!
                         </p>
-                        <form className="flex flex-row flex-wrap pt-2 pb-2 gap-2">
+                        <form className="w-full flex flex-row flex-wrap pt-2 pb-2 gap-2">
                             <input
                                 type="text"
-                                className=" text-gray-500 w-2/3 p-2 focus:border-blue-500"
+                                className="text-gray-500 w-full sm:w-44 p-2 focus:border-blue-500"
                                 name=""
                                 id=""
                                 placeholder="Your email address"
                             />
-                            <button className="p-2 w-1/3 bg-blue-500 hover:text-blue-400">Subscribe</button>
+                            <button className="p-2 w-full md:w-[100px] bg-blue-500 hover:text-blue-400">Subscribe</button>
                         </form>
                     </section>
                 </div>
