@@ -1,8 +1,10 @@
-import React from 'react'
-
-function page() {
+const page = () => {
   return (
-    <div>Pork</div>
+    <div>
+      <div className='text-center'>
+        <h1 className='text-2xl font-semibold text-blue-900'>Pork</h1>
+      </div>
+    </div>
   )
 }
 
