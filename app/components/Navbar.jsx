@@ -32,6 +32,9 @@ const Navbar = () => {
       <div className='text-white'>
       <Link href="/aboutus">About Us</Link>
       </div>
+        <div className='text-white'>
+      <Link href="/login">Log In / Sign Up</Link>
+      </div>
       </div>
       </div>
     </nav>
